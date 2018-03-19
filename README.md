@@ -2,13 +2,15 @@
 
 UPDATE:
 
-Lurkinator is now stronger a web-based app: http://www.lurkinator.net
+Lurkinator is now stronger as web-based app: http://www.lurkinator.net
 
 The "Lurkinator" program is a MultiTwtich-like system I made for streamers to connect and grow. We will launch a new Stream Team and software for members soon!
 
-Official Website
+Official Website: http://www.lurkinator.net
 
-See the most updated info, how it works, faq, and instructions on the official webpage: http://www.psynapticmedia.com/twitch-stream-lurkinator/
+Official Discord: https://discord.gg/gc7E789
+
+See the most updated info, how it works, faq, and instructions on the FAQ webpage: http://www.psynapticmedia.com/twitch-stream-lurkinator/
 
 How to Lurk:
 - Visit http://www.lurkinator.net or Download and Run the Lurkinator exe.
