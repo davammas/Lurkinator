@@ -10,6 +10,8 @@ Official Website: http://www.lurkinator.net
 
 Official Discord: https://discord.gg/gc7E789
 
+Official API Documentation: https://app.swaggerhub.com/apis/davammas/Lurkinator-API/1.0.1
+
 See the most updated info, how it works, faq, and instructions on the FAQ webpage: http://www.psynapticmedia.com/twitch-stream-lurkinator/
 
 How to Lurk:
