@@ -1,0 +1,50 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "API Calls for Lurkinator\nDiscord: https://discord.gg/gc7E789",
+    "version" : "1.0.1",
+    "title" : "Lurkinator-API",
+    "license" : {
+      "name" : "Apache 2.0",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host" : "www.lurkinator.net",
+  "basePath" : "/api",
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/data" : {
+      "get" : {
+        "tags" : [ "user" ],
+        "summary" : "shows all data for iteration",
+        "description" : "By passing in the appropriate options, you can search for\navailable lurkers by top points. If no arguments are passed it will\ndump the entire list. In order to limit lurkers, you must pass a True or False(case sensative)\ninto the string. If this is not done, it will dump the entire list.\n",
+        "operationId" : "searchLurkers",
+        "produces" : [ "json" ],
+        "parameters" : [ {
+          "name" : "sort",
+          "in" : "query",
+          "description" : "pass an optional True to sort order by points.\nCASE SENSATIVE!",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "limit",
+          "in" : "query",
+          "description" : "Requires SORT to be True\nlimit number of lurkers listed",
+          "required" : false,
+          "type" : "integer",
+          "minimum" : 1,
+          "format" : "int32"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "listed dump of users"
+          },
+          "400" : {
+            "description" : "bad input parameter"
+          }
+        }
+      }
+    }
+  },
+  "definitions" : { }
+}
